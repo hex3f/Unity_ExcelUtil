@@ -17,7 +17,7 @@ Unity 版本 2020.3.12f1c1
 
 ![exceltojson](Assets/Images/exceltojson.png)
 
-Excel 数据格式（^为标题头 后面跟着文件名）：
+Excel 数据格式（^开头代表本行标题头，后面跟着文件名。#开头代表本行注释。更多选择可以在DataManager.cs中修改）：
 
 ![excel](Assets/Images/excel.png)
 
@@ -27,7 +27,7 @@ Excel转换成Json的数据文件
 
 如果你需要把代码迁移到你的工程中，仅需迁移ExcelUtil.cs、DataManager.cs、MenuTool.cs这三个文件。也可以将DataManager.cs的代码合并在ExcelUtil.cs中，并在你的其他脚本中声明ExcelData变量！
 
-然后请注意修改DataManager.cs的变量：
+然后请注意修改DataManager.cs的变量（文件储存路径和格式校验等）：
 
 ![DataManager](Assets/Images/DataManager.png)
 
@@ -35,6 +35,6 @@ Excel转换成Json的数据文件
 
 如果需要在编辑器内使用json数据进行调试，请打开 DataManager.cs 脚本修改 JsonDeBug 值为 True 即可！
 
-示例请看脚本 TEST.cs，详细内容请看代码，就不一一展示了！
+示例请看脚本 TEST.cs，详细内容请看代码，就不一一展示了！需要扩展请看 DataManager.cs 最下面的 ExcelData类 里面存放着对文本的各种解析！
 
 有问题请发Issue哦！
