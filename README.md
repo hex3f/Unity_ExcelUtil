@@ -17,6 +17,12 @@ Unity 版本 2020.3.12f1c1
 
 ![exceltojson](Assets/Images/exceltojson.png)
 
+Excel 数据格式（^为标题头 后面跟着文件名）：
+![excel](Assets/Images/excel.png)
+
+Excel转换成Json的数据文件
+![json](Assets/Images/json.png)
+
 如果你需要把代码迁移到你的工程中，仅需迁移ExcelUtil.cs、DataManager.cs、MenuTool.cs这三个文件。也可以将DataManager.cs的代码合并在ExcelUtil.cs中，并在你的其他脚本中声明ExcelData变量！
 
 然后请注意修改DataManager.cs的变量：
