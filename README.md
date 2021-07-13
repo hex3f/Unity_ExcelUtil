@@ -13,11 +13,11 @@ Unity 版本 2020.3.12f1c1
 
 但是由于excel部分原因，编译后excel会出现各种问题。例如需要I18N或者手机上无法读取到等。
 
-因为这些原因所以我写了个ExcelUtil.cs，它能帮助你在编辑器中使用excel编辑数据，当你觉得数据已经处理完成的时候。使用菜单栏上的 BuildTools -> ExcelToJson 快速将excel数据直接转成json数据。
+因为这些原因所以我写了个ExcelUtil.cs，它能帮助你在编辑器中使用excel编辑数据，当你觉得数据已经处理完成的时候。使用菜单栏上的 BuildTools -> ExcelToJson 快速将excel数据直接转成json数据。并且在操作的时候有各种控制台提示！
 
 ![exceltojson](Assets/Images/exceltojson.png)
 
-Excel 数据格式（^开头代表本行标题头，后面跟着文件名。#开头代表本行注释。更多选择可以在DataManager.cs中修改）：
+Excel 数据格式（^开头代表本行标题头，后面跟着文件名。#开头代表本行注释。允许空一行。更多选择可以在DataManager.cs中修改）：
 
 ![excel](Assets/Images/excel.png)
 
