@@ -22,4 +22,5 @@ public static class DataManager
 #endif
     // ÉùÃ÷Êý¾Ý
     public readonly static ExcelData test = ExcelUtil.Read("TEST");
+    //------------------------- Excel End ---------------------------
 }
