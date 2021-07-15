@@ -17,7 +17,7 @@ Unity 版本 2020.3.12f1c1
 
 ![exceltojson](Assets/Images/exceltojson.png)
 
-Excel 数据格式（^开头代表本行标题头，后面跟着文件名。#开头代表本行注释。允许空一行。更多选择可以在DataManager.cs中修改）：
+Excel 数据格式（^开头代表本行标题头，后面跟着文件名。#开头代表本行注释。允许空行。更多选择可以在DataManager.cs中修改）：
 
 ![excel](Assets/Images/excel.png)
 
