@@ -1,4 +1,7 @@
 # Unity_ExcelUtil
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0 国际许可协议</a>进行许可。
+
 Used to easily read excel data bing in the editor and use json to read after compilation!
 
 用于在编辑器内便捷读取excel数据bing且在编译后使用json读取！
