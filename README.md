@@ -2,9 +2,9 @@
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
-Used to easily read excel data bing in the editor and use json to read after compilation!
+It is used to easily read excel data in the editor and use json to read it after compilation!
 
-用于在编辑器内便捷读取excel数据bing且在编译后使用json读取！
+用于在编辑器内便捷读取excel数据并且在编译后使用json读取！
 
 Unity 版本 2020.3.12f1c1
 
