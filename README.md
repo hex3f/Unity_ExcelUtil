@@ -36,5 +36,9 @@ Excel转换成Json的数据文件
 如果需要在编辑器内使用json数据进行调试，请打开 DataManager.cs 脚本修改 JsonDeBug 值为 True 即可！
 
 示例请看脚本 TEST.cs，详细内容请看代码，就不一一展示了！需要扩展请看 DataManager.cs 最下面的 ExcelData类 里面存放着对文本的各种解析！
+  
+![Test](Assets/Images/Test.png)
+  
+![ConsoleLog](Assets/Images/ConsoleLog.png)
 
 有问题请发Issue哦！
